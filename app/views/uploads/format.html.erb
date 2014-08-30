@@ -1,6 +1,6 @@
 <!-- views/uploads/format.html.erb -->
-<div id='status'>
-  Imported & Formatted !
+<div data-status="<%= uploads_status_path(@doc) %>">
+  <p>Formatting...</p>
+  <%= link_to 'Back', root_path, style: 'display: none;' %>
 </div>
 
-<%= link_to 'Back', root_path, style: 'display: none;' %>
