@@ -1,10 +1,12 @@
 class UploadsController < ApplicationController
+
   def index
+
   end
 
-  def upload
+  def format
+    doc = Document.create(name: 'Invisible')
+    doc.delay.format
   end
 
-  def status
-  end
 end

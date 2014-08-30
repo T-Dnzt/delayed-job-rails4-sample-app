@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'uploads/index'
-  get 'uploads/upload'
+  get 'uploads/format'
   get 'uploads/status'
 
   root 'uploads#index'
