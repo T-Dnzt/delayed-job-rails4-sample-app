@@ -6,7 +6,7 @@ class UploadsController < ApplicationController
 
   def format
     @doc = Document.create(name: 'Invisible')
-    @doc.delay.format
+    @doc.format
   end
 
   def status

@@ -5,4 +5,6 @@ class Document < ActiveRecord::Base
     update_column :imported, true
   end
 
+  handle_asynchronously :format
+
 end
