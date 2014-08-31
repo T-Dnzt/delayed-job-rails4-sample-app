@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'delayed_job_active_record'
+gem 'daemons'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
